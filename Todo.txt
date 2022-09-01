@@ -1,0 +1,5 @@
+Things to learn in ruby and rails
+: Class and objects and oops
+: Relationships between entities or tables in rails
+: Postgress
+: there are lot of functions in ruby on rails so try to learn as many 

@@ -1,0 +1,11 @@
+{"callback_for_instagram": {
+    "method": "post",
+    "access_type": "private",
+    "display_name": "Create Air Customs Rate",
+    "scopes": [
+      {
+        "type": "allowed"
+      }
+    ]
+    
+  }}

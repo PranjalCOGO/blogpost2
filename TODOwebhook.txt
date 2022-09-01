@@ -1,0 +1,2 @@
+User details if we give id of the recipient
+Writing hello message if we recieve a message

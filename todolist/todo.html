@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO List</title>
+</head>
+<body lang="en">
+    <label>
+        Todo Item
+        <input id="item" type="text">
+    </label>
+    <button onclick="addItem()">Add item</button>
+    <button onclick="delItem()"> Delete</button>
+    <button onclick="displayTasks()">Display</button>
+    <div id="list_task"></div>
+    
+    
+
+    
+
+
+
+<script>
+       var task_list = [];
+      
+       function addItem(){
+            let new_task = document.getElementById('item').value;
+            if(!new_task) return;
+            console.log(new_task);
+            task_list.push(new_task);
+            document.getElementById('item').value = "";
+            displayTasks();
+       }
+       function displayTasks(){
+        //get array
+        // task_list
+        let html = '';
+        task_list.map((task,i)=>{
+            html = html+  `
+            
+                <div id="taskcss">
+                    <div>
+                        ${i}.${task}
+                        <div id>
+                    </div> 
+                    <div><button onclick="delThis(${i})">Delete</button> </div>
+                    <div><button onclick="updateItem(${i})">Update</button></div>
+                    <div id="kk"></div>
+
+                </div>
+                
+
+            `
+            // html = html+  `<div>` + task + `</div>`
+        })
+
+        document.getElementById('list_task').innerHTML = html;
+        //create div
+        //add div to UI
+       }
+       function delThis(i)
+       {
+        task_list.splice(i,1);
+        displayTasks();
+
+       }
+       function delItem(){
+            let delvalue= document.getElementById('item').value;
+            let index=0;
+            for(let i=0;i<task_list.length;i++)
+            {
+                if(delvalue===task_list[i]){
+                    
+                    index=i; break;}
+                    else{
+                        index=-1;
+                    }
+
+            }
+            if(index===-1){
+                alert("element doesnt exisit");
+                return;
+            }
+            task_list.splice(index,1);
+            document.getElementById('item').value="";
+            displayTasks();
+
+       }
+       function updateItem(i){
+        // will show a input box on click
+        // write in input box
+        // click ok
+        let html='';
+        html= html+ `
+            <label for="">
+            <input id="upItem" type="text">
+            <div> <button onclick="update1(${i})">ok</button>
+            </div>
+            </label>
+        `;
+        document.getElementById("kk").innerHTML=html;
+        
+
+       }
+       function update1(i)
+       {
+            let val=document.getElementById("upItem").value;
+            task_list[i]=val;
+            displayTasks();
+       }
+    </script>
+    <style>
+        #taskcss{
+            display: inline;
+        }
+    </style> 
+
+</body>
+</html>

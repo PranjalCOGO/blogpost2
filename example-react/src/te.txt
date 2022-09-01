@@ -1,0 +1,42 @@
+how is react helpful than javascript
+
+
+
+it has to understand when to rerender what...
+
+why do we use setstate ..not directly x=5  (hint react knows when to rerender while javascript)
+
+
+//
+
+React is a rerender master
+
+immutability
+
+
+
+
+----useEffect----
+control over renderre
+1.first time it changes we do something..
+2.any variable is changed we do something
+3.anystate variable changes we renderre
+
+.. when default value is called
+..suppose if we have 5 set variable we and specific variable changes we rerender... thats 2.
+.. and if any one of variable changes we rerender..thats 3.
+
+
+rerender is on state and rerender ke sath kuch krna is useEffect/// 
+example task: local stoarage mai store krna.. api calling krna..etc
+
+if u want to change a element of array 
+create a new array with the changed vaule and setState.
+
+
+
+///
+
+
+
+cambridge analytics 

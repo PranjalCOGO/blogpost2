@@ -1,0 +1,154 @@
+absolute postioning
+fixed positioning 
+relative postitioning
+static postioton
+
+
+learn about them wellll;;;;;;;;;;;;;;;;;;;;;
+absolute doesnt occupies space
+parents have relative postion while children have absolute 
+
+
+learn to know hhow to use bootstap
+conrINER ROW COLUNMN
+
+Make portfolio
+
+also do programming good
+
+
+Media queries#####
+dom
+------------------------------------------------------
+
+Computer Architecture Theory;;;;;
+
+
+-----------------------------------
+cdn
+domain
+study 
+
+ram and chachw
+
+how long shouldcache staay
+
+library files stay differebt abf our file stay seperate
+
+.............................................
+how is react helpful than javascript
+
+
+
+it has to understand when to rerender what...
+
+why do we use setstate ..not directly x=5  (hint react knows when to rerender while javascript)
+
+
+//
+
+React is a rerender master
+
+immutability
+
+
+
+
+----useEffect----
+control over renderre
+1.first time it changes we do something..
+2.any variable is changed we do something
+3.anystate variable changes we renderre
+
+.. when default value is called
+..suppose if we have 5 set variable we and specific variable changes we rerender... thats 2.
+.. and if any one of variable changes we rerender..thats 3.
+
+
+rerender is on state and rerender ke sath kuch krna is useEffect/// 
+example task: local stoarage mai store krna.. api calling krna..etc
+
+if u want to change a element of array 
+create a new array with the changed vaule and setState.
+
+
+
+///
+
+
+
+cambridge analytics 
+......................................................
+
+
+Oop:
+Pillars of OPPS
+Abstraction: creating object without details
+Inheritance: getting /inheriting the properties of the parent calss
+encapsulation: keeping the data together/ wrapping up data/ hiding the data /
+Polymorphisom: function name being same, variable being difference
+Ojects: Instance of the blueprint/ actual data/ actual value
+class:
+Constructors: function to create a instance of a object based on the class
+Deconstrucors: Function to delete a instance--to avoid more memory usage
+Interface: we make interface to interact with class
+Public ,Private, Protected
+annotations:
+
+
+ruby: it doesnt have implicit type conversion
+
+--------------------
+rails
+
+LEARN params:
+Learm difference between params in react and rails
+
+
+what is front end /// what is the requirement of backend
+what si the structured dbd db and noDB
+what is MVC models
+What is 
+
+Why is API is divided into routes models views controlers.. why not just directly connect it to DB	
+
+why use mvc
+
+
+CAP therorm 
+System Design
+Payment gateway
+#3 ways of connectino
+short polling
+long polling
+we sockets//
+learn system design
+
+
+--------------------------------------------------
+
+why--model ..because it is agnostic;; it can be used with any api
+react-route-controller-model-database-model-react
+
+
+what is a class
+why do we do migration
+why do keep migration files
+controller has to be plural
+model has to singular and talbes have to create_table
+files use lowecase
+
+
+test= user.find(m)
+test.name = fjsdkfj
+test.save
+
+whereever the many is the ones primary key
+we create a 3rd table if many to many relationship
+
+
+Write has_many : artivle in user.rb--model
+and belongs_to : user in artivels.rb
+
+
+f =

@@ -1,0 +1,11 @@
+begin 
+	num = 10 /0
+rescue
+	puts "division by zero error" 
+
+end
+
+has_one
+has_many
+has_many :through it is used for many to many relationship
+has_and_belongs_to_many 
